@@ -6,8 +6,7 @@
 body{
     font-family: 'Muller';
     font-weight: normal;
-    background: #E5E5E5;
-
+    background: #F1F1F1;
 }
 .header{
     margin-top: 30px;
@@ -448,5 +447,201 @@ body{
     margin-top: 20px;
     border: 1px solid #CC9933;
     border-radius: 10px;
+    text-decoration: none;
+}
+/*Whant tour*/
+.section-whant-tour{
+    box-sizing: border-box;
+    margin-top: 43px;
+    background: #E9E9E9;
+    border-radius: 15px;
+    height: 274px;
+    margin-bottom: 70px;
+}
+.section-whant-tour__heading{
+    padding-top: 38px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    padding-left: 40px;
+}
+.section-whant-tour__form{
+    margin: 0 auto;
+    max-width: 1080px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.section-whant-tour__list{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-bottom: 32px;
+    padding-top: 31px
+}
+.section-whant-tour__item:not(:last-child){
+    display: block;
+    list-style-type: none;
+    padding-right: 20px;
+}
+.section-whant-tour__item:last-child{
+    align-items: center;
+    align-self: center;
+    list-style-type: none;
+}
+.section-whant-tour__item:not(:first-child){
+    padding-left: 20px;
+}
+.section-whant-tour__item:not(:last-child){
+    border-right: 1px solid #E1E1E1;
+}
+#section-whant-tour__city{
+    border-color: white;
+    width: 169px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+.section-whant-tour__paragraph{
+    
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+.section-whant-tour__paragraph-input{
+    padding-left: 2px;
+}
+#section-whant-tour__country{
+    border-color: white;
+    padding-right: 26px;
+    width: 169px;
+}
+#section-whant-tour__date{
+    width: 135px;
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+#section-whant-tour__number{
+    width: 121px;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+}
+.section-whant-tour__href{
+    border: 1px solid #CC9933;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 13px 30px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+    text-decoration: none;
+}
+
+/* Contacts*/
+.section-contacts__heading{
+    padding-left: 40px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+    padding-bottom: 26px;
+}
+.section-contacts__content{
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    padding-left: 46px;
+    padding-right: 44px;
+    padding-bottom: 46px;
+    padding-top: 44px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.section-contacts__list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+
+.section-contacts__address{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 23px;
+}
+.section-contacts__address:not(:first-child){
+    padding-top: 25px;
+}
+.section-contacts__second-column{
+    max-width: 229px;
+}
+.section-contacts__first-column{
+    box-sizing: content-box;
+    display: inline-block;
+    width: 98px;
+    padding-right: 47px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.section-contacts__second-column__content{ 
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.section-contacts__second-column__content_second-row{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+}
+.section-contacts__second-column_emails{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+}
+.section-contacts__second-column__email-label{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #999999;
+}
+.section-contacts__image{
+    flex-grow: 1;
+    max-width: 653px;
+    max-height: 528px;
+    flex-shrink: 1;
+    border-radius: 10px;
+}
+.section-contacts__address-anchor{
+    padding-top: 44px;
+}
+.section-contacts__address-anchor_btn{
+    display: inline-block;
+    padding: 27px 29px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
     text-decoration: none;
 }
