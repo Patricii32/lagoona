@@ -548,6 +548,9 @@ body{
 }
 
 /* Contacts*/
+.section-contacts{
+    margin-bottom: 19px;
+}
 .section-contacts__heading{
     padding-left: 40px;
     font-weight: normal;
@@ -644,4 +647,65 @@ body{
     line-height: 16px;
     color: #CC9933;
     text-decoration: none;
+}
+/*footer*/
+
+.footer{
+    margin-bottom: 20px;
+    background: #333333;
+    border-radius: 15px;
+}
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 46px;
+    padding-top: 44px;
+}
+.footer__item1{
+    display: block;
+    max-width: 320px;
+}
+.footer__item_paragraph{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 190%;
+    color: #FFFFFF;
+}
+.footer__item1_paragraph{
+    margin-bottom: 49px;
+}
+.footer__anchor{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+    text-decoration: none;
+}
+.footer__item2{
+    display: block;
+    max-width: 358px;
+    padding-bottom: 14px;
+}
+.footer__item2_paragraph{
+    padding-bottom: 14px;
+}
+.footer_tel{
+    padding-bottom: 15px;
+}
+.footer__item3{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.footer_item3_list{
+    padding-top: 7px;
+    padding-left: 158px;  
+    list-style-type: none;
+}
+.footer_item3_item:not(:last-child){
+    padding-bottom: 20px;
 }
